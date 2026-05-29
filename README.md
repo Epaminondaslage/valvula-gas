@@ -123,10 +123,10 @@ Principais recursos:
 
 
 <p align="center">
-<img src="fig6.jpg" width="50%">
+<img src="fig4.jpg" width="50%">
 </p>
 
-**Figura 4.** Verificação do atuador e a válvula manual.
+**Figura 4.** Verificação do atuador e a válvula no local de instalação.
 
 Instale um dos lados do suporte de montagem na aba de fixação do atuador.
 
@@ -162,7 +162,7 @@ O eixo do motor deve ficar perfeitamente alinhado ao eixo da válvula.
 ## 4.4 Verificação Manual
 
 <p align="center">
-<img src="fig5.jpg" width="30%">
+<img src="fig6.jpg" width="30%">
 </p>
 
 **Figura 5.** Verificação manual da instalação.
