@@ -123,10 +123,10 @@ Principais recursos:
 
 
 <p align="center">
-<img src="fig4.jpg" width="50%">
+<img src="fig6.jpg" width="50%">
 </p>
 
-**Figura 4.** instalação do atuador e a válvula.
+**Figura 4.** Verificação do atuador e a válvula manual.
 
 Instale um dos lados do suporte de montagem na aba de fixação do atuador.
 
