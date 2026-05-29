@@ -43,7 +43,7 @@ Utilizando comunicação Zigbee, o equipamento permite acionamento remoto, progr
 ## Figura 1 – Visão Geral do Controlador Inteligente Zigbee
 
 <p align="center">
-<img src="fig1.jpg" width="30%">
+<img src="fig5.jpg" width="30%">
 </p>
 
 **Figura 1.** Controlador inteligente de válvula Zigbee utilizado para automação de válvulas de esfera em instalações hidráulicas e de gás.
@@ -121,6 +121,13 @@ Principais recursos:
 
 ## 4.1 Fixação do Suporte
 
+
+<p align="center">
+<img src="fig4.jpg" width="30%">
+</p>
+
+**Figura 4.** instalação do atuador e a válvula.
+
 Instale um dos lados do suporte de montagem na aba de fixação do atuador.
 
 > Não aperte completamente os parafusos nesta etapa.
@@ -136,7 +143,7 @@ Fixe o outro lado do suporte de montagem na tubulação utilizando a abraçadeir
 ## 4.3 Alinhamento dos Eixos
 
 <p align="center">
-<img src="fig4.jpg" width="30%">
+<img src="fig1.jpg" width="30%">
 </p>
 
 **Figura 4.** Alinhamento correto entre o atuador e a válvula.
