@@ -123,7 +123,7 @@ Principais recursos:
 
 
 <p align="center">
-<img src="fig4.jpg" width="30%">
+<img src="fig4.jpg" width="50%">
 </p>
 
 **Figura 4.** instalação do atuador e a válvula.
