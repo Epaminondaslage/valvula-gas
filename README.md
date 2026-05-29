@@ -43,7 +43,7 @@ Utilizando comunicação Zigbee, o equipamento permite acionamento remoto, progr
 ## Figura 1 – Visão Geral do Controlador Inteligente Zigbee
 
 <p align="center">
-<img src="fig1.jpg" width="96%">
+<img src="fig5.jpg" width="30%">
 </p>
 
 **Figura 1.** Controlador inteligente de válvula Zigbee utilizado para automação de válvulas de esfera em instalações hidráulicas e de gás.
@@ -73,7 +73,7 @@ Utilizando comunicação Zigbee, o equipamento permite acionamento remoto, progr
 ## 3.1 Registro de Esfera
 
 <p align="center">
-<img src="fig2.jpg" width="96%">
+<img src="fig2.jpg" width="30%">
 </p>
 
 **Figura 2.** Registro de esfera de ¼ de volta.
@@ -85,7 +85,7 @@ A válvula de esfera é responsável pelo bloqueio ou liberação do fluxo de á
 ## 3.2 Atuador Motorizado Zigbee
 
 <p align="center">
-<img src="fig3.jpg" width="96%">
+<img src="fig3.jpg" width="30%">
 </p>
 
 **Figura 3.** Atuador motorizado Zigbee para válvulas de esfera.
@@ -121,6 +121,13 @@ Principais recursos:
 
 ## 4.1 Fixação do Suporte
 
+
+<p align="center">
+<img src="fig4.jpg" width="50%">
+</p>
+
+**Figura 4.** Verificação do atuador e a válvula no local de instalação.
+
 Instale um dos lados do suporte de montagem na aba de fixação do atuador.
 
 > Não aperte completamente os parafusos nesta etapa.
@@ -136,7 +143,7 @@ Fixe o outro lado do suporte de montagem na tubulação utilizando a abraçadeir
 ## 4.3 Alinhamento dos Eixos
 
 <p align="center">
-<img src="fig4.jpg" width="96%">
+<img src="fig1.jpg" width="30%">
 </p>
 
 **Figura 4.** Alinhamento correto entre o atuador e a válvula.
@@ -155,7 +162,7 @@ O eixo do motor deve ficar perfeitamente alinhado ao eixo da válvula.
 ## 4.4 Verificação Manual
 
 <p align="center">
-<img src="fig5.jpg" width="96%">
+<img src="fig6.jpg" width="30%">
 </p>
 
 **Figura 5.** Verificação manual da instalação.
@@ -173,7 +180,7 @@ Após a montagem:
 
 Conecte a fonte de alimentação fornecida:
 
-* Entrada: 100~240 VAC
+* Entrada: 100~230 VAC
 * Saída: 12 VDC / 1 A
 
 ---
@@ -253,7 +260,7 @@ O equipamento retornará ao modo de pareamento.
 ## 5.6 Operação Manual
 
 <p align="center">
-<img src="fig6.jpg" width="96%">
+<img src="fig6.jpg" width="30%">
 </p>
 
 **Figura 6.** Anel de desacoplamento para operação manual.
