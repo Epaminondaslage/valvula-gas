@@ -1,281 +1,366 @@
-# Manual do Controlador Inteligente de Válvula Zigbee
+# Controlador Inteligente de Válvula Zigbee
 
-## 1. Introdução do Produto
+> Manual Técnico de Instalação, Configuração e Operação
 
-Este produto possui características de controle inteligente, controle de longa distância, baixo custo e alta confiabilidade. Utiliza tecnologia Zigbee para permitir o controle sem fio, remoto e programado de válvulas.
-
-Aplicações:
-
-- Segurança residencial
-- Automação residencial
-- Irrigação agrícola
-- Irrigação florestal
+**Versão:** 1.0
+**Protocolo:** Zigbee 3.0
+**Compatibilidade:** Smart Life, Tuya Smart, Home Assistant, Alexa e Google Home
 
 ---
 
-## 2. Especificações do Produto
+# Sumário
 
-| Parâmetro | Valor |
-|------------|---------|
-| Alimentação | 12 VDC / 1 A |
-| Comunicação | Zigbee |
-| Alcance sem fio | 30 m (área aberta) |
-| Pressão máxima da válvula | 1,6 MPa |
-| Diâmetros compatíveis | 1/2", 3/4", 1" e 1¼" |
-| Tempo de fechamento | 5 a 10 segundos |
-| Tempo de abertura | 5 a 10 segundos |
-| Torque | 30 a 60 kgf·cm |
-| Aplicativo | iOS / Android |
-| Tipo de válvula | Válvula de esfera com alavanca |
+1. Introdução
+2. Especificações Técnicas
+3. Componentes do Sistema
+4. Instalação
+5. Configuração e Operação
+6. Solução de Problemas
+7. Conteúdo da Embalagem
+8. Integrações Compatíveis
+9. Recomendações de Segurança
+10. Dados Técnicos Complementares
 
 ---
 
-## 3. Guia de Instalação
+# 1. Introdução
 
-### Passo 1
+O Controlador Inteligente de Válvula Zigbee é um dispositivo desenvolvido para automatizar a abertura e o fechamento de válvulas de esfera utilizadas em sistemas de água, gás, irrigação e automação residencial.
 
-Instale um lado do suporte de montagem na aba de fixação do atuador.
+Utilizando comunicação Zigbee, o equipamento permite acionamento remoto, programação de horários e integração com plataformas de automação residencial.
 
-> Não aperte totalmente os parafusos nesta etapa.
+## 1.1 Aplicações
 
-### Passo 2
-
-Fixe o outro lado do suporte de montagem ou da abraçadeira no tubo de água ou gás.
-
-### Passo 3
-
-Ajuste a posição do atuador para que:
-
-- O eixo do motor fique alinhado com o eixo da válvula.
-- O braço do atuador fique alinhado com a alavanca da válvula.
-
-Após o alinhamento:
-
-- Aperte os parafusos do suporte.
-
-> **Importante:** O centro do eixo do controlador deve coincidir com o centro do eixo da válvula. Caso contrário, a válvula poderá não abrir ou fechar completamente e o motor poderá ser danificado.
-
-### Passo 4
-
-Após a instalação:
-
-1. Puxe o anel de desacoplamento (embreagem).
-2. Movimente o atuador manualmente.
-3. Verifique se a válvula opera livremente.
-4. Aperte o parafuso de fixação da alavanca.
-
-### Passo 5
-
-Conecte a fonte de alimentação de **12V / 1A**.
+* Segurança residencial
+* Controle de fornecimento de água
+* Controle de fornecimento de gás
+* Sistemas de irrigação
+* Automação predial
+* Integração com sensores inteligentes
 
 ---
 
-## Componentes da Montagem
+## Figura 1 – Visão Geral do Controlador Inteligente Zigbee
 
-| Nome Original | Tradução |
-|--------------|-----------|
-| Smart valve handle | Alavanca da válvula inteligente |
-| Support clip | Presilha de suporte |
-| Valve handle | Alavanca da válvula |
-| Smart valve center shaft | Eixo central da válvula inteligente |
-| Valve center shaft | Eixo central da válvula |
-| Clutch pull ring | Anel de desacoplamento |
-| Valve | Válvula |
-| Stainless steel tie | Abraçadeira de aço inox |
+<p align="center">
+<img src="fig1.jpg" width="96%">
+</p>
 
-### Função do Anel de Desacoplamento
-
-O anel de desacoplamento permite liberar o mecanismo do motor para operação manual.
-
-Utilize-o:
-
-- Durante a instalação;
-- Para testes;
-- Em caso de falta de energia.
+**Figura 1.** Controlador inteligente de válvula Zigbee utilizado para automação de válvulas de esfera em instalações hidráulicas e de gás.
 
 ---
 
-## 4. Guia do Usuário
+# 2. Especificações Técnicas
 
-### Instalação do Aplicativo
-
-1. Escaneie o QR Code.
-2. Baixe o aplicativo **Smart Life**.
-3. Instale o aplicativo.
-4. Crie uma conta ou faça login.
-
----
-
-### Adicionando o Dispositivo
-
-1. Certifique-se de que o Gateway Zigbee já está configurado.
-2. Abra o Gateway no aplicativo.
-3. Clique em **Adicionar Dispositivo**.
-4. Escolha **Dispositivo Zigbee**.
-5. Pressione e mantenha pressionado o botão da válvula por aproximadamente 5 segundos.
-
-O LED começará a piscar rapidamente.
-
-Neste momento:
-
-- A válvula entra em modo de pareamento.
-- O dispositivo será encontrado pelo Gateway.
-- Finalize o processo no aplicativo.
+| Parâmetro                 | Valor                   |
+| ------------------------- | ----------------------- |
+| Alimentação               | 12 VDC / 1 A            |
+| Comunicação               | Zigbee                  |
+| Alcance sem fio           | 30 m (área aberta)      |
+| Pressão máxima da válvula | 1,6 MPa                 |
+| Válvulas compatíveis      | 1/2", 3/4", 1" e 1¼"    |
+| Tempo de abertura         | 5 a 10 segundos         |
+| Tempo de fechamento       | 5 a 10 segundos         |
+| Torque                    | 30 a 60 kgf·cm          |
+| Aplicativo                | Smart Life / Tuya Smart |
+| Sistema operacional       | Android / iOS           |
+| Tipo de válvula           | Esfera (¼ de volta)     |
 
 ---
 
-## Operação
+# 3. Componentes do Sistema
 
-Após o pareamento:
+## 3.1 Registro de Esfera
+
+<p align="center">
+<img src="fig2.jpg" width="96%">
+</p>
+
+**Figura 2.** Registro de esfera de ¼ de volta.
+
+A válvula de esfera é responsável pelo bloqueio ou liberação do fluxo de água ou gás. Seu funcionamento ocorre por meio da rotação de uma esfera perfurada em 90°, permitindo abertura ou fechamento total da passagem.
+
+---
+
+## 3.2 Atuador Motorizado Zigbee
+
+<p align="center">
+<img src="fig3.jpg" width="96%">
+</p>
+
+**Figura 3.** Atuador motorizado Zigbee para válvulas de esfera.
+
+O atuador converte comandos enviados pelo aplicativo ou sistema de automação em movimento mecânico, acionando automaticamente a alavanca da válvula.
+
+Principais recursos:
+
+* Controle remoto
+* Programação de horários
+* Automações inteligentes
+* Integração com assistentes virtuais
+* Operação local e remota
+
+---
+
+## 3.3 Componentes da Montagem
+
+| Nome Original            | Tradução                        |
+| ------------------------ | ------------------------------- |
+| Smart Valve Handle       | Alavanca da válvula inteligente |
+| Support Clip             | Presilha de suporte             |
+| Valve Handle             | Alavanca da válvula             |
+| Smart Valve Center Shaft | Eixo central do atuador         |
+| Valve Center Shaft       | Eixo central da válvula         |
+| Clutch Pull Ring         | Anel de desacoplamento          |
+| Valve                    | Válvula                         |
+| Stainless Steel Tie      | Abraçadeira de aço inox         |
+
+---
+
+# 4. Instalação
+
+## 4.1 Fixação do Suporte
+
+Instale um dos lados do suporte de montagem na aba de fixação do atuador.
+
+> Não aperte completamente os parafusos nesta etapa.
+
+---
+
+## 4.2 Fixação na Tubulação
+
+Fixe o outro lado do suporte de montagem na tubulação utilizando a abraçadeira fornecida.
+
+---
+
+## 4.3 Alinhamento dos Eixos
+
+<p align="center">
+<img src="fig4.jpg" width="96%">
+</p>
+
+**Figura 4.** Alinhamento correto entre o atuador e a válvula.
+
+O eixo do motor deve ficar perfeitamente alinhado ao eixo da válvula.
+
+⚠️ Um desalinhamento pode provocar:
+
+* Abertura incompleta;
+* Fechamento incompleto;
+* Sobrecarga mecânica;
+* Queima prematura do motor.
+
+---
+
+## 4.4 Verificação Manual
+
+<p align="center">
+<img src="fig5.jpg" width="96%">
+</p>
+
+**Figura 5.** Verificação manual da instalação.
+
+Após a montagem:
+
+1. Puxe o anel de desacoplamento.
+2. Movimente o conjunto manualmente.
+3. Verifique a livre movimentação da válvula.
+4. Aperte os parafusos de fixação.
+
+---
+
+## 4.5 Alimentação
+
+Conecte a fonte de alimentação fornecida:
+
+* Entrada: 100~240 VAC
+* Saída: 12 VDC / 1 A
+
+---
+
+# 5. Configuração e Operação
+
+## 5.1 Instalação do Aplicativo
+
+1. Escaneie o QR Code fornecido pelo fabricante.
+2. Instale o aplicativo Smart Life.
+3. Crie uma conta.
+4. Faça login.
+
+---
+
+## 5.2 Adição do Dispositivo
+
+1. Configure previamente um Gateway Zigbee.
+2. Abra o aplicativo Smart Life.
+3. Selecione o Gateway.
+4. Clique em **Adicionar Dispositivo**.
+5. Escolha **Dispositivo Zigbee**.
+6. Pressione o botão do atuador por aproximadamente 5 segundos.
+
+Quando o LED começar a piscar rapidamente, o dispositivo estará em modo de pareamento.
+
+---
+
+## 5.3 Operação Normal
 
 ### Estado padrão
 
+Após a energização:
+
 **Válvula Fechada**
 
-### Controle
+### Indicação por LED
 
-A válvula pode ser operada:
+| Estado          | LED     |
+| --------------- | ------- |
+| Válvula aberta  | Aceso   |
+| Válvula fechada | Apagado |
 
-- Pelo botão físico;
-- Pelo aplicativo Smart Life.
+### Métodos de Controle
 
-### Indicação do LED
-
-| Estado | LED |
-|----------|------|
-| Válvula Aberta | Aceso |
-| Válvula Fechada | Apagado |
-
----
-
-## Recursos Disponíveis
-
-- Controle remoto
-- Programação de horários
-- Compartilhamento com outros usuários
-- Automações
-- Cenas inteligentes
-- Integrações Zigbee
+* Aplicativo Smart Life
+* Aplicativo Tuya Smart
+* Botão local
+* Home Assistant
+* Alexa
+* Google Home
 
 ---
 
-## Reset do Dispositivo
+## 5.4 Recursos Disponíveis
 
-Após o pareamento:
-
-1. Pressione novamente o botão.
-2. O LED começará a piscar rapidamente.
-
-Isso apagará:
-
-- Configurações atuais;
-- Informações de pareamento.
-
-O dispositivo retornará ao modo de inclusão.
+* Controle remoto
+* Programação de horários
+* Compartilhamento entre usuários
+* Cenas inteligentes
+* Integrações Zigbee
+* Automações condicionais
 
 ---
 
-## Operação sem Internet
+## 5.5 Reset do Equipamento
 
-Mesmo sem conexão Wi-Fi ou Internet:
+Para restaurar as configurações de fábrica:
 
-- O botão físico continua funcionando normalmente.
-- A válvula pode ser aberta ou fechada localmente.
+1. Pressione e mantenha pressionado o botão.
+2. Aguarde o LED piscar rapidamente.
 
----
-
-## Operação Manual em Falta de Energia
-
-Em caso de falta de energia:
-
-1. Puxe o anel de desacoplamento.
-2. Gire a alavanca manualmente.
-3. Abra ou feche a válvula conforme necessário.
+O equipamento retornará ao modo de pareamento.
 
 ---
 
-## 5. Guia de Solução de Problemas
+## 5.6 Operação Manual
 
-### Problema 1 – A válvula não abre ou fecha completamente
+<p align="center">
+<img src="fig6.jpg" width="96%">
+</p>
 
-Verifique se:
+**Figura 6.** Anel de desacoplamento para operação manual.
 
-- O eixo do controlador está alinhado com o eixo da válvula.
-- Ambos os eixos estão no mesmo centro.
+O anel de desacoplamento permite liberar mecanicamente o motor da válvula.
 
-Caso contrário:
+Utilize-o:
 
-- A válvula poderá operar incorretamente.
-- O motor poderá ser queimado.
-
----
-
-### Problema 2 – Válvula travada
+* Durante a instalação;
+* Para manutenção;
+* Em testes funcionais;
+* Em falta de energia.
 
 Procedimento:
 
-1. Puxe o anel de desacoplamento.
-2. Gire manualmente a válvula aproximadamente 90°.
-3. Verifique se a válvula está excessivamente apertada.
-
-Se necessário:
-
-- Lubrifique;
-- Faça manutenção;
-- Substitua a válvula.
+1. Puxe o anel.
+2. Gire manualmente a alavanca.
+3. Posicione a válvula conforme necessário.
 
 ---
 
-### Problema 3 – Não é possível parear com a rede
+# 6. Solução de Problemas
+
+## 6.1 A válvula não abre ou fecha completamente
 
 Verifique:
 
-- Se o Gateway Zigbee está ligado;
-- A intensidade do sinal Zigbee;
-- Se o dispositivo está próximo ao Gateway durante o pareamento.
+* Alinhamento dos eixos;
+* Fixação da alavanca;
+* Ausência de travamentos mecânicos.
 
 ---
 
-### Problema 4 – Outros problemas
+## 6.2 Válvula travada
 
-Consulte a central de ajuda do aplicativo.
-
----
-
-## 6. Conteúdo da Embalagem
-
-- 1 × Atuador inteligente de válvula
-- 1 × Manual
-- 1 × Fonte de alimentação
-- 1 × Abraçadeira para tubo
+1. Puxe o anel de desacoplamento.
+2. Movimente a válvula manualmente.
+3. Verifique se existe excesso de torque ou travamento.
 
 ---
 
-## Observações Técnicas
+## 6.3 Falha no pareamento
 
-Este equipamento é compatível com:
+Verifique:
 
-- Smart Life
-- Tuya Smart
-- Zigbee 3.0
-
-Também pode ser integrado com:
-
-- Home Assistant
-- Zigbee2MQTT
-- ZHA (Zigbee Home Automation)
-- Amazon Alexa
-- Google Home
-
-> É necessário um Gateway Zigbee compatível para comunicação com a rede.
+* Funcionamento do Gateway Zigbee;
+* Distância entre dispositivo e Gateway;
+* Qualidade do sinal Zigbee.
 
 ---
 
-## Recomendações de Instalação
+## 6.4 Outros problemas
 
-- Utilize somente em válvulas de esfera (¼ de volta).
-- Verifique se a válvula gira livremente antes da instalação.
-- Garanta o perfeito alinhamento entre os eixos.
-- Utilize a abraçadeira de aço inox para fixação segura.
-- Teste manualmente o funcionamento antes de energizar o equipamento.
-- Não exceda a pressão máxima especificada de 1,6 MPa.
+Consulte a documentação do aplicativo Smart Life ou Tuya Smart.
+
+---
+
+# 7. Conteúdo da Embalagem
+
+* 1 × Atuador inteligente Zigbee
+* 1 × Fonte de alimentação 12V
+* 1 × Manual do usuário
+* 1 × Kit de fixação para tubulação
+
+---
+
+# 8. Integrações Compatíveis
+
+O equipamento pode ser integrado com:
+
+* Smart Life
+* Tuya Smart
+* Zigbee 3.0
+* Home Assistant
+* Zigbee2MQTT
+* ZHA
+* Amazon Alexa
+* Google Home
+
+---
+
+# 9. Recomendações de Segurança
+
+* Utilize apenas válvulas de esfera de ¼ de volta.
+* Verifique o alinhamento antes da energização.
+* Não exceda a pressão máxima de 1,6 MPa.
+* Realize testes periódicos de funcionamento.
+* Em instalações de gás, siga as normas técnicas aplicáveis.
+* Não utilize o equipamento em ambientes explosivos sem certificação adequada.
+
+---
+
+# 10. Dados Técnicos Complementares
+
+| Item                | Valor                            |
+| ------------------- | -------------------------------- |
+| Alimentação         | 12 VDC / 1 A                     |
+| Comunicação         | Zigbee 3.0                       |
+| Alcance             | 30 m                             |
+| Torque              | 30 a 60 kgf·cm                   |
+| Tempo de abertura   | 5 a 10 s                         |
+| Tempo de fechamento | 5 a 10 s                         |
+| Compatibilidade     | Smart Life, Tuya, Home Assistant |
+| Tipo de válvula     | Esfera ¼ de volta                |
+
+---
+
+## Licença
+
+Este documento pode ser utilizado livremente para fins de instalação, manutenção e integração do Controlador Inteligente de Válvula Zigbee.
