@@ -260,7 +260,7 @@ O equipamento retornará ao modo de pareamento.
 ## 5.6 Operação Manual
 
 <p align="center">
-<img src="fi7.jpg" width="30%">
+<img src="fig7.jpg" width="30%">
 </p>
 
 **Figura 6.** Anel de desacoplamento para operação manual.
